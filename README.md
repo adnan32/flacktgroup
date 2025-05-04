@@ -22,11 +22,11 @@ Follow these steps to set up the project on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/product-record-system.git
-cd product-record-system
+git clone https://github.com/adnan32/flacktgroup.git
+cd flacktgroup/product_record_system
 ```
 
-### 2. Create and Activate a Virtual Environment
+### 2. Create and Activate a Virtual Environment (optional id there is no env)
 
 ```bash
 python -m venv env
@@ -39,13 +39,7 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 pip install django
 ```
 
-### 4. Apply Database Migrations
-
-```bash
-python manage.py migrate
-```
-
-### 5. Run the Development Server
+### 4. Run the Development Server
 
 ```bash
 python manage.py runserver
@@ -54,23 +48,3 @@ python manage.py runserver
 Then open your browser and navigate to: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ---
-
-
-## 🗃 Project Structure
-
-```
-product_record_system/
-├── manage.py
-├── products/
-│   ├── models.py
-│   ├── views.py
-│   ├── forms.py
-│   ├── urls.py
-│   ├── templates/
-│   │   └── products/
-│   │       ├── product_list.html
-│   │       └── product_form.html
-├── product_record_system/
-│   ├── settings.py
-│   ├── urls.py
-```
